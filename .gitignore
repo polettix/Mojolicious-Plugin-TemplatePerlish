@@ -1,0 +1,5 @@
+.build/
+*.swp
+/local/
+/Mojolicious-Plugin-TemplatePerlish-*.tar.gz
+/Mojolicious-Plugin-TemplatePerlish-*/
