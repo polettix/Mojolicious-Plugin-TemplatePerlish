@@ -111,7 +111,7 @@ Report bugs either through RT or GitHub (patches welcome).
 
 # SEE ALSO
 
-[Mojolicious](https://metacpan.org/pod/Mojolicious). Most of the documentation is copied from
+[Mojolicious](https://metacpan.org/pod/Mojolicious). Most of the documentation and tests is copied from
 [Mojolicious::Plugin::TemplateToolkit](https://metacpan.org/pod/Mojolicious::Plugin::TemplateToolkit).
 
 # AUTHOR
