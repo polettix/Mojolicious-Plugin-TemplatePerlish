@@ -16,12 +16,12 @@ This document describes Mojolicious::Plugin::TemplatePerlish version {{[ version
    # Mojolicious
    $app->plugin('TemplatePerlish');
    $app->plugin(TemplatePerlish => {name => 'tpt'});
-   $app->plugin(TemplatePerlish => {tp => {start => '<%', stop => '%>'}});
+   $app->plugin(TemplatePerlish => {template_perlish => {start => '<%', stop => '%>'}});
 
    # Mojolicious::Lite
    plugin 'TemplatePerlish';
    plugin TemplatePerlish => {name => 'tpt'};
-   plugin TemplatePerlish => {tp => {start => '<%', stop => '%>'}});
+   plugin TemplatePerlish => {template_perlish => {start => '<%', stop => '%>'}});
 
    # Set as default handler, default name is 'tp'
    $app->renderer->default_handler('tp');
@@ -87,11 +87,11 @@ Handler name, defaults to C<tp>.
 When a template is loaded from a file, this is the C<binmode> that is applied
 upon opening the file. Defaults to the string C<:encoding(UTF-8)>.
 
-=head2 B<< tp >>
+=head2 B<< template_perlish >>
 
    # Mojolicious::Lite
    plugin TemplatePerlish => {
-      tp => {
+      template_perlish => {
          start => '<%', # default is '[%'
          stop  => '%>', # default is '%]'
          variables => {foo => bar}, # default is {}
