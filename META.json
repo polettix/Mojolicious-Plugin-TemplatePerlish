@@ -43,7 +43,7 @@
          }
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/polettix/Mojolicious-Plugin-TemplatePerlish/issues"
@@ -55,7 +55,7 @@
          "web" : "https://github.com/polettix/Mojolicious-Plugin-TemplatePerlish"
       }
    },
-   "version" : "0.01",
+   "version" : "0.001",
    "x_contributors" : [
       "Flavio Poletti <flavio@polettix.it>"
    ]
