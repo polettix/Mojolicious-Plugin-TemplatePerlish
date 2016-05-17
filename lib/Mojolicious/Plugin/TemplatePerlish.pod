@@ -116,7 +116,7 @@ Report bugs either through RT or GitHub (patches welcome).
 
 =head1 SEE ALSO
 
-L<Mojolicious>. Most of the documentation is copied from
+L<Mojolicious>. Most of the documentation and tests is copied from
 L<Mojolicious::Plugin::TemplateToolkit>.
 
 =head1 AUTHOR
