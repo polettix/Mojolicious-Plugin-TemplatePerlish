@@ -102,6 +102,8 @@ Options for L<Template::Perlish constructor|Template::Perlish/new>.
 
 =head1 METHODS
 
+=head2 B<< register >>
+
    $plugin->register(Mojolicious->new());
    $plugin->register(Mojolicious->new(), {name => 'foo'});
 
