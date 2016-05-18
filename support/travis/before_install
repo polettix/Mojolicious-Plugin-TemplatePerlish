@@ -1,0 +1,15 @@
+#!/bin/bash
+
+check_perl_presence() {
+   ! (perlbrew use "$1" 2>&1 | grep '^ERROR:' >/dev/null 2>&1)
+}
+
+if check_perl_presence "$TRAVIS_PERL_VERSION" ; then
+   echo "perl version '$TRAVIS_PERL_VERSION' is already present"
+else
+   echo "perl version '$TRAVIS_PERL_VERSION' not present, working around"
+   git clone git://github.com/travis-perl/helpers ~/travis-perl-helpers
+   source ~/travis-perl-helpers/init
+   build-perl
+   perl -V
+fi
