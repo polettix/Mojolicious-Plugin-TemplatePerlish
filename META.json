@@ -41,6 +41,11 @@
             "Mojolicious" : "6.0",
             "Template::Perlish" : "1.52"
          }
+      },
+      "test" : {
+         "requires" : {
+            "Path::Tiny" : "0.084"
+         }
       }
    },
    "release_status" : "testing",
@@ -55,7 +60,7 @@
          "web" : "https://github.com/polettix/Mojolicious-Plugin-TemplatePerlish"
       }
    },
-   "version" : "0.001",
+   "version" : "0.001001",
    "x_contributors" : [
       "Flavio Poletti <flavio@polettix.it>"
    ]
