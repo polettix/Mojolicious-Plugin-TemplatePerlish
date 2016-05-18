@@ -33,6 +33,7 @@
          "requires" : {
             "Dist::Milla" : "v1.0.15",
             "Path::Tiny" : "0.084",
+            "Template::Perlish" : "1.52",
             "Test::Pod" : "1.41"
          }
       },
@@ -48,7 +49,7 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/polettix/Mojolicious-Plugin-TemplatePerlish/issues"
