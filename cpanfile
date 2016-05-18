@@ -4,3 +4,7 @@ requires 'Mojolicious',       '6.0';
 on develop => sub {
    requires 'Path::Tiny', '0.084';
 };
+
+on test => sub {
+   requires 'Path::Tiny', '0.084';
+};

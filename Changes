@@ -1,4 +1,5 @@
 {{$NEXT}}
+   - Path::Tiny is a dependency for testing
 
 0.001  2016-05-17 09:29:03 CEST
    - initial release
