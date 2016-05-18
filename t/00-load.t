@@ -21,5 +21,5 @@ while (my $path = $iter->()) {
      or BAIL_OUT("can't load $module");
 } ## end while (my $path = $iter->...)
 
-diag("Testing Mojolicious::Plugin::TemplatePerlish $Mojolicious::Plugin::TemplatePerlish::VERSION");
+diag("Testing Mojolicious::Plugin::TemplatePerlish $Mojolicious::Plugin::TemplatePerlish::VERSION against $^X");
 done_testing();
