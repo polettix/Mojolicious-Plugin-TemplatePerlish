@@ -3,7 +3,7 @@ package Mojolicious::Plugin::TemplatePerlish;
 use strict;
 use warnings;
 use English qw< -no_match_vars >;
-{ our $VERSION = '0.001001'; }
+{ our $VERSION = '0.002'; }
 
 use Mojo::Base 'Mojolicious::Plugin';
 use Mojo::Util qw(encode md5_sum);

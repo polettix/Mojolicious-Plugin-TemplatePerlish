@@ -1,4 +1,6 @@
 {{$NEXT}}
+
+0.002  2016-05-19 22:51:49 CEST
    - release after 113 PASSes on CPAN Testers (thanks!).
      Too bad no Windows though.
 

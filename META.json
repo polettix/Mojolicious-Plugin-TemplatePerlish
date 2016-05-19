@@ -61,7 +61,7 @@
          "web" : "https://github.com/polettix/Mojolicious-Plugin-TemplatePerlish"
       }
    },
-   "version" : "0.001001",
+   "version" : "0.002",
    "x_contributors" : [
       "Flavio Poletti <flavio@polettix.it>"
    ]
